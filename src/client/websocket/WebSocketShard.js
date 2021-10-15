@@ -1,5 +1,6 @@
 'use strict';
 
+const Intents = require('../'../util/Intents.js)
 const EventEmitter = require('events');
 const WebSocket = require('../../WebSocket');
 const { Status, Events, ShardEvents, Opcodes, WSEvents } = require('../../util/Constants');
